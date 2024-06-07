@@ -1,1 +1,1 @@
-Project POsmotry v okno
+https://github.com/Umkabjorn/posmotri_v_okno.git
