@@ -52,10 +52,12 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 16px;
 }
 
 .content__list {
   height: 293px;
+  width: 399px;
   -ms-overflow-style: none;
   scrollbar-width: none;
   max-height: 100vh;
@@ -70,6 +72,8 @@ ol {
 .content__details {
   width: 100%;
   height: 298px;
+  position: relative;
+  bottom: 5px;
 }
 
 .title {
@@ -88,18 +92,19 @@ ol {
 
 .result {
   width: 711px;
-  padding-top: 78px;
+  padding-top: 71px;
 }
 
 .result__video-container {
   width: 711px;
   position: relative;
+  height: 386px;
 }
 
 .result__video {
   width: 100%;
+  height: 100%;
   object-fit: cover;
-  object-position: center;
 }
 
 .content__list-item:not(:last-child) {
@@ -128,8 +133,9 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
   height: 103px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__video-card-description-container {
@@ -314,6 +320,8 @@ input[type="checkbox"]:focus + span {
   width: 194px;
   height: 34px;
   margin-top: auto;
+  position: relative;
+  top: 4px;
 }
 
 .more-button {
